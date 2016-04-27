@@ -1,0 +1,88 @@
+/*Background Color: F5FFFC
+Font Color Heading: 2240A7 
+Div Color: FFF5E1
+Google Font: Lobster 2 for H1 tags
+Google Font: PT Serif for P tags
+PT Serif Italics for all other tags
+*/
+
+
+
+/*.jumbotron {
+  background-image:url('../img/skylineblue.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron h1 {
+  color: #ffffff;
+  text-align: center; 
+  /*font-size: 100px;*/
+  /*font-family: Lobster2,'Shift', sans-serif; 
+
+} 
+
+
+ img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+} */
+
+
+body {background-color: #F5FFFC;}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic|PT+Serif:400,400italic,700,700italic);
+
+li
+{
+   display: inline;
+}
+
+/*nav a{
+    padding: 6px;
+    background-color: #C254AB;
+} */
+.active{
+    background-color: #25B800;
+}
+
+/*.Itinerary {background-color: #CAFFD3;
+} */
+
+.Activities {background-color: #86CAFF;
+}
+
+.Pictures {background-color: #F1FFCE;
+}
+
+.image {max-width: 200px;
+width: 200px;
+
+
+}
+
+h2 {
+    float:right;
+    font-family: PTSerif,Sans-Serif;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+/*THIS TARGETS THE BUTTON ON THE BOTTOM OF THE HOME PAGE */
+.button-primary{
+    background-color: C254AB;
+    
+}
+
+
+/*THIS TARGETS THE GLYPH IN THE FOOTER*/
+.glyphicon glyphicon heart{
+    align:center;
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    
+    </head>
+    
+    <title>Contact</title>
+    
+    <body>
+        <div class="jumbotron" style="background-image: url(img/Contact.jpg); background-size:cover;">
+          <h1>Contact Me!</h1>
+        </div>
+
+
+        <form class="cmxform" id="commentForm" method="get" action="">
+            <fieldset>
+            <legend>Please provide your name, email address, and a comment</legend>
+            <p>
+            <label for="cname">Name (required, at least 2 characters)</label>
+            <input id="cname" name="name" minlength="2" type="text" required />
+            </p>
+            <p>
+            <label for="cemail">E-Mail (required)</label>
+            <input id="cemail" type="email" name="email" required />
+            </p>
+            <p>
+            <label for="ccomment">Your comment (required)</label>
+            <textarea id="ccomment" name="comment" required></textarea>
+            </p>
+            <p>
+            <input class="submit" type="submit" value="Submit"/>
+            </p>
+            </fieldset>
+        </form>
+        
+        
+        
+    </body>
